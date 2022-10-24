@@ -14,13 +14,6 @@
 img {
   max-width: 100%;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
@@ -53,4 +46,16 @@ body {
   border-radius: 0.0625;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   margin-bottom: 2rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
 }
